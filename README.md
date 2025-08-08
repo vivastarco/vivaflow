@@ -76,7 +76,7 @@ Just fork, edit/add, and submit a pull request.
 
 ## 📄 License
 
-MIT License © 2025 Koosha Yeganeh
+MIT License © 2025 vivaSTAR
 
 ---
 
