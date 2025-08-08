@@ -1,5 +1,7 @@
-def by_name(db, name):
-    return [r for r in db.get_all() if name.lower() in r["Name"].lower()]
+def by_name(db, name_query):
+    name_query = name_query.lower()
+    return [row for row in db.get_all() if name_query in row['Name'].lower()]
 
-def by_type(db, wtype):
-    return [r for r in db.get_all() if wtype.lower() in r["Type"].lower()]
+def by_type(db, type_query):
+    type_query = type_query.lower()
+    return [row for row in db.get_all() if type_query in row['Type'].lower()]
